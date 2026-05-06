@@ -19,7 +19,6 @@ export class AdminService {
 
   constructor(private http: HttpClient) {}
 
-  // 📌 TEST METHOD (for git commit check)
   ping(): string {
     return 'admin service updated';
   }
